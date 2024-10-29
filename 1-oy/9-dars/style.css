@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td, th{
+    border: solid 1px black;
+}
+
+.un{
+    background-color: yellow;
+}
+
+.unj{
+    background-color: white;
+}
+
+.black{
+    background-color: red;
+}
+
+.red{
+    background-color: green;
+}

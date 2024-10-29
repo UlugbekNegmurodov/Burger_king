@@ -1,0 +1,45 @@
+body{
+    background-color: #2A5D5A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #311313;
+    color: white;
+    text-align: center;
+    width: 636px;
+    margin: 22px auto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    padding: 28px 17px;
+}
+
+main{
+    width: 1000px;
+    margin: 55px auto;
+    border: 8px solid red;
+    padding: 45px 52px;
+    background-color: black;
+    margin-bottom: 163px;
+
+}
+
+.title-2{
+     margin-top: 30px;
+}
+
+.title-1, .title-2{
+    background-color: #80f6fa;
+    padding: 40px 54px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+}
+

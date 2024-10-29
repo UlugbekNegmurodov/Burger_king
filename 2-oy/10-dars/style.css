@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+     width: 80%;
+     margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+    margin-bottom: 91px;
+}
+
+ul{
+    list-style-type: none;
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+
+ul li a{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color: #1f1534;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: .5s;
+}
+.logo img{
+    cursor: pointer;
+}
+
+ul li a:hover{
+    opacity: 1;
+    transition: .5s;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+.hero-left{
+    width: 440px;
+}
+
+.hero-left h1{
+    font-family: Mulish;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+.hero-left p{
+   font-family: Mulish;
+   font-size: 19px;
+   font-weight: 300;
+   line-height: 32px;
+   color: #7D7987;
+   margin-bottom: 35px;
+}
+
+.btn{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    background-color: white;
+    color: #458FF6;
+    border: 1.4 px solid #458FF6;
+    border-radius: 50px;
+    padding: 17px 51px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: 0.7s;
+}
+
+.Services .title{
+    text-align: center;
+    font-family: Mulish;
+    
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.Services .subtitle{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 61px;
+}
+
+.box1{
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child1{
+    width: 96.91px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha1{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha1{
+    font-family: Mulish;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.box2{
+    
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child2{
+    width: 67px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha2{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha2{
+    font-family: Mulish;
+    width: 283px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.box3{
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child3{
+    width: 71px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha3{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha3{
+    font-family: Mulish;
+    width: 274.98px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.box4{
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child4{
+    width: 70px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha4{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha4{
+    font-family: Mulish;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.box5{
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child5{
+    width: 84px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha5{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha5{
+    font-family: Mulish;
+    width: 280px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.box6{
+    margin-top: 36px;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    transition: .7s;
+}
+
+.child6{
+    width: 75px;
+    height: 93.83px;
+    margin-top: 68px;
+    margin-left: 38px;
+}
+
+.bolacha6{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 40px;
+    margin-left: 41px;
+}
+
+.ustozcha6{
+    font-family: Mulish;
+    width: 283px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+.boss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 36px;
+}
+
+.box1:hover{
+   background-color: #458FF6;
+   color: white;
+   transition: .7s;
+} 
+
+.box2:hover{
+    background-color: #458FF6;
+   color: white;
+   transition: .7s;
+}
+
+.box3:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: .7s;
+ } 
+ 
+ .box4:hover{
+     background-color: #458FF6;
+    color: white;
+    transition: .7s;
+ }
+
+ .box5:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: .7s;
+ } 
+ 
+ .box6:hover{
+     background-color: #458FF6;
+    color: white;
+    transition: .7s;
+ }
+
+ .btn1{
+    font-family: Mulish;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 70px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    background-color: white;
+    color: #458FF6;
+    border: 1.4 px solid #458FF6;
+    border-radius: 50px;
+    padding: 17px 51px;
+    cursor: pointer;
+    transition: 0.7s;
+ }
+
+ .btn1:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: .7s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

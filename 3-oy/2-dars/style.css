@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-top: 61px;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  color: #363853;
+  transition: 0.6s;
+}
+
+.btn-1 h2 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-1 {
+  cursor: pointer;
+  padding: 15px 28px;
+  background-color: #ff7a50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 22px 40px #ff683830;
+}
+
+ul li a:hover {
+  color: #ff6838;
+  transition: 0.6s;
+}
+
+.cambridge {
+  display: flex;
+  padding-top: 52px;
+}
+
+.dostavka-logo {
+  display: flex;
+}
+
+.text-1 {
+  margin-top: 213px;
+  width: 530px;
+  height: 156px;
+  font-family: Rubik;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 78.21px;
+}
+
+.paragraph {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 23px;
+  color: #363853;
+}
+
+.btn-2 {
+  padding: 12px 24px;
+  background-color: #ff7a50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  margin-top: 45px;
+  color: #ffffff;
+  line-height: 23.7px;
+  text-align: center;
+}
+
+.btn-2 h2 {
+  cursor: pointer;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.boss {
+  display: flex;
+  padding-top: 124px;
+}
+
+.cambridge{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.boss{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rasmlar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer{
+     width: 80%;
+    margin: 0 auto;
+}
+
+.text-2 {
+  margin-top: 114px;
+  width: 384px;
+  height: 100px;
+  font-family: Rubik;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.paragraph-2 {
+  margin-top: 95px;
+  width: 449px;
+  height: 103px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #363853;
+}
+
+.btn-3 {
+  margin-top: 141px;
+  color: #ffffff;
+  background-color: #ff7a50;
+  box-shadow: 0px 22px 40px 0px #ff683830;
+  padding: 17px 44px;
+  border: none;
+  border-radius: 25px 25px 0 25px;
+}
+
+.big-boss {
+  width: 80%;
+}
+
+.btn-3 h2 {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.7px;
+}
+
+.hero {
+  padding-top: 40px;
+}
+
+.hero h2 {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+
+.rasmlar {
+  padding-top: 50px;
+  display: flex;
+  gap: 59px;
+}
+
+.pizza-p {
+  margin-top: 22px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pizza-p-1 {
+  margin-top: 14px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.pizza-text {
+  margin-top: 22px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pizza-p-2 {
+  margin-top: 14px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.pizza-text-1 {
+  margin-top: 22px;
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pizza-p-3 {
+  margin-top: 14px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.logojon-1 {
+  display: flex;
+  padding-top: 162px;
+}
+
+.box {
+  width: 454px;
+  height: 50px;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.menu-1 {
+  margin-top: 281px;
+}
+
+.box-1 {
+  margin-top: 31px;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #363853;
+}
+
+.footer {
+  padding-top: 110px;
+}
+
+footer {
+  width: 80%;
+  height: 312px;
+  background-color: #ff6838;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.ustozcha {
+  padding-top: 59px;
+  font-family: Rubik;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+input::placeholder {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 43px;
+}
+
+/* .inputcha{
+    width: 838.5px;
+} */
+ .inputcha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 838px;
+    height: 78px;
+    background: #fff;
+    border-radius: 50px;
+ }
+ input{
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    color: grey;
+ }
+
+.input-amaliy {
+  border: none;
+  width: 191px;
+  height: 59px;
+  border-radius: 70px;
+  background-color: #ff7a50;
+  color: #ffffff;
+}
+
+/* input{
+    margin-bottom: 20px;
+    border-radius: 30px;  
+    margin-top: 72px;
+    height: 78px;
+    box-shadow: 10px 24px 54px 0px #00000012;
+} */

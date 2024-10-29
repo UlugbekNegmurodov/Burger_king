@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+p::before{
+    content: "YOLAK";
+    color: aqua;
+    transition: 1s;
+}
+
+p::after{
+    content: "u";
+    color: crimson;
+    transition: 1s;
+}
+
