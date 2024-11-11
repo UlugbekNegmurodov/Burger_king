@@ -1,0 +1,26 @@
+.logo {
+  background-color: orange;
+  position: absolute;
+  padding: 30px;
+  border-radius: 50px;
+}
+
+.logo img {
+  width: 300px;
+  border-radius: 50%;
+  animation: logo;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
